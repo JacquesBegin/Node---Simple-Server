@@ -6,7 +6,7 @@ const port = 8881;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Simple Node Server Cirrently Running');
+  res.end('Simple Node Server Currently Running');
 });
 
 server.listen(port, hostname, () => {
